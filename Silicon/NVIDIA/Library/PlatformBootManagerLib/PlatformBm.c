@@ -1220,7 +1220,9 @@ PlatformBootManagerBeforeConsole (
     //
     // Set platform has been configured
     //
+    #if 0
     PlatformConfigured ();
+    #endif
   }
 
   //
@@ -1522,12 +1524,16 @@ PlatformBootManagerAfterConsole (
   //
   // Show the splash screen.
   //
+  #if 0
   BootLogoEnableLogo ();
+  #endif
 
   //
   // Display system and hotkey information after console is ready.
   //
+  #if 0
   DisplaySystemAndHotkeyInformation ();
+  #endif
 
   //
   // Run Sparse memory test
