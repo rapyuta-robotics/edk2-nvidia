@@ -1200,7 +1200,7 @@ PlatformBootManagerBeforeConsole (
     //
     // Register platform-specific boot options and keyboard shortcuts.
     //
-    PlatformRegisterOptionsAndKeys ();
+    //PlatformRegisterOptionsAndKeys ();
 
     //
     // Register UEFI Shell
@@ -1522,12 +1522,12 @@ PlatformBootManagerAfterConsole (
   //
   // Show the splash screen.
   //
-  BootLogoEnableLogo ();
+  //BootLogoEnableLogo ();
 
   //
   // Display system and hotkey information after console is ready.
   //
-  DisplaySystemAndHotkeyInformation ();
+  //DisplaySystemAndHotkeyInformation ();
 
   //
   // Run Sparse memory test

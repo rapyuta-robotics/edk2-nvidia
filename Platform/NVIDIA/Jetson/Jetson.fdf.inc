@@ -159,7 +159,7 @@
   #
   # T194 Display support
   #
-  INF Silicon/NVIDIA/Tegra/T194/Drivers/T194GraphicsOutputDxe/T194GraphicsOutputDxe.inf
+  #INF Silicon/NVIDIA/Tegra/T194/Drivers/T194GraphicsOutputDxe/T194GraphicsOutputDxe.inf
 
   #
   # MM Communication

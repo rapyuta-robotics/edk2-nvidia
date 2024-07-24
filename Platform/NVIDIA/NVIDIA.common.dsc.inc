@@ -543,6 +543,11 @@
 
   gArmTokenSpaceGuid.PcdMmBufferSize|65536
 
+  #
+  # Disable test key detection
+  #
+  gFmpDevicePkgTokenSpaceGuid.PcdFmpDeviceTestKeySha256Digest|{0}
+
 [PcdsFixedAtBuild]
   #
   # Variable Services PCDs.
@@ -633,7 +638,7 @@
 
 [PcdsDynamicHii.common.DEFAULT]
   # Global variables
-  gEfiMdePkgTokenSpaceGuid.PcdPlatformBootTimeOut|L"Timeout"|gEfiGlobalVariableGuid|0x0|5
+  gEfiMdePkgTokenSpaceGuid.PcdPlatformBootTimeOut|L"Timeout"|gEfiGlobalVariableGuid|0x0|0
   # NVIDIA internal variables
   gNVIDIATokenSpaceGuid.PcdPcieResourceConfigNeeded|L"PCIeResourceConfig"|gNVIDIATokenSpaceGuid|0x0|0|BS
   gNVIDIATokenSpaceGuid.PcdPcieEntryInAcpiConfigNeeded|L"PCIeInOsConfig"|gNVIDIATokenSpaceGuid|0x0|0|BS
